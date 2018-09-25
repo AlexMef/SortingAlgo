@@ -6,7 +6,7 @@ public class BubbleSort {
         Random random = new Random();
         int[] arrayLong = new int[100000];
         for (int i = 0; i < arrayLong.length; i++){
-            arrayLong[i] = random.nextInt(1000);
+            arrayLong[i] = random.nextInt(100000);
         }
         long startTime = System.currentTimeMillis();
         for (int i = 0; i < arrayLong.length; i++){
@@ -22,7 +22,7 @@ public class BubbleSort {
         long stopTime = System.currentTimeMillis();
         System.out.println("Bubble sort " + (stopTime - startTime));
 
-        int[] arrayLong2 = new int[1000];
+        int[] arrayLong2 = new int[100000];
         for (int i = 0; i < arrayLong2.length; i++) {
             arrayLong2[i] = random.nextInt(100000);
         }
